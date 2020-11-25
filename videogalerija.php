@@ -24,15 +24,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="parmums.html">MineCurse</a>
+            <a class="navbar-brand" href="parmums.php">Covid Drošība</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav  navbar-right">
-                <li><a href="index.html">Mājas</a></li>
-                <li><a href="parmums.html">Par mums</a></li>
-                <li><a href="galerija.html">Galerija</a></li>
-                <li class="active"><a href="videogalerija.html">Video galerija</a></li>
-                <li><a href="kontakti.html">Kontakti</a></li>
+                <li><a href="index">Mājas</a></li>
+                <li><a href="parmums">Par mums</a></li>
+                <li><a href="galerija">Galerija</a></li>
+                <li class="active"><a href="videogalerija">Video galerija</a></li>
+                <li><a href="kontakti">Kontakti</a></li>
             </ul>
 
         </div>
@@ -40,7 +40,7 @@
 </nav>
 <section class="container-fluid">
     <section class="row">
-        <div class="col-md-2 col-sm-6 article" style="background-color:#ffccff">
+        <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>
             <div class="reklama">
                 <a href="https://www.w3schools.com">
@@ -48,29 +48,29 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-8 col-sm-6 article" style="background-color:#f9e6ff">
-            <h1>MineCurse</h1>
+        <div class="col-md-8 col-sm-6 article" style="background-color:#FFFFFF">
+            <h1>Covid Drošība</h1>
             <div class="videogalerija">
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/PrBbthdU-wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/0H2WtZKVwHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/PjbDQNdt99c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/KnW9H4E_wOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/K77wW5kH7Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/mvigNj-2YOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/eEzDgKTPLHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/MhI3k4ZqMsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="304" height="171" src="https://www.youtube.com/embed/t9wP_PN96Is" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/PrBbthdU-wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/0H2WtZKVwHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/PjbDQNdt99c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/KnW9H4E_wOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/K77wW5kH7Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/mvigNj-2YOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/eEzDgKTPLHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/MhI3k4ZqMsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/t9wP_PN96Is" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <h2>Interesantākie video par mūsu tēmu</h2>
             <h3>Mēs liekam klāt jaunus video cik ātri vien tas iespējams</h3>
             <h4>Pa cik tas aizņem laiku, mēs arī pieņemam jūsu video uz e-pastiem</h4>
-            <a href="parmums.html" class="btn btn-success myBtn" role="button">Par mums</a>
-            <a href="kontakti.html" class="btn btn-success myBtn" role="button">Kontakti</a>
+            <a href="parmums.php" class="btn btn-success myBtn" role="button">Par mums</a>
+            <a href="kontakti.php" class="btn btn-success myBtn" role="button">Kontakti</a>
             <h2>Aizvainojošs, seksuāls vai citāda veida aizliegts materiāls?</h2>
             <h3>Jūs to varat ziņot, un mēs apskatīsim vai arī noņemsim materiālu, kurš neatbilst noteikumiem</h3>
             <button type="button" class="btn btn-warning">Ziņot</button>
         </div>
-        <div class="col-md-2 col-sm-6 article" style="background-color:#ffccff">
+        <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>
             <div class="reklama">
                 <a href="https://www.w3schools.com">
@@ -89,9 +89,6 @@
         </a>
         <a href="https://www.rvt.lv/">
             <img alt="Rvt.lv logo" height="60px" width="60px" src=https://www.estudijas.rvt.lv/theme/image.php/clean/theme/1505375536/rvt-95">
-        </a>
-        <a href="https://www.minecraft.net/en-us/">
-            <img alt="Minecraft logo" height="60px" width="60px" src="https://www.juegosdesurvival.com/wp-content/uploads/2015/04/1993715.png">
         </a>
         <a href="https://www.facebook.com">
             <img alt="Facebook.com logo" height="60px" width="60px" src="https://www.freepnglogos.com/uploads/facebook-icons/facebook-icon-transparent-background-3.png">

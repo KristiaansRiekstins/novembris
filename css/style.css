@@ -25,6 +25,10 @@ main{
     font-style: oblique;
 }
 
+.btn-success{
+    padding: 10px 10px 10px 10px;
+}
+
 .navbar{
     border-radius: 0;
     border: 0;
@@ -34,12 +38,12 @@ main{
 
 
 .navbar-inverse{
-    background-color: rebeccapurple;
+    background-color: black;
     border: 4px groove gold;
 }
 
 .myBtn{
-    background-color: rebeccapurple;
+    background-color: black;
     font-style: italic;
     border: 4px groove gold;
 }
@@ -50,9 +54,8 @@ main{
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rebeccapurple;
-    border: 2px groove gold;
-    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    padding: 2px 2px 2px 2px;
 }
 .container-fluid{
 
@@ -65,10 +68,9 @@ main{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #ffbff1;
+    background-color: black;
     color: black;
     text-align: center;
-    border: 2px dotted darkred;
     max-height: 200px;
 }
 
@@ -78,9 +80,8 @@ main{
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rebeccapurple;
-    border: 4px groove black;
-    padding: 10px 10px 5px 10px;
+    background-color: transparent;
+    padding: 2px 2px 2px 2px;
 }
 
 .mapbox{
@@ -97,7 +98,7 @@ main{
     text-align: center;
     max-height: 100%;
     max-width: 100%;
-    background-color: rebeccapurple;
+    background-color: black;
     border: 4px groove gold;
     padding: 10px 10px 10px 10px;
 }
@@ -116,6 +117,7 @@ hr.new1{
 .table-dark{
     color: rebeccapurple;
     border: 4px groove gold;
+    text-align: center;
 }
 
 hr.new2{

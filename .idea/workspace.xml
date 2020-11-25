@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5b9a579-ecf8-4eb6-bc35-acc943827ccb" name="Default Changelist" comment="" />
+    <list default="true" id="c5b9a579-ecf8-4eb6-bc35-acc943827ccb" name="Default Changelist" comment="">
+      <changelist_data name="Kristiāns Riekstiņš" email="" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,6 +45,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Covid\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -66,7 +73,7 @@
       <workItem from="1576663475370" duration="5360000" />
       <workItem from="1576668865464" duration="10061000" />
       <workItem from="1576697543283" duration="3799000" />
-      <workItem from="1606313796926" duration="2474000" />
+      <workItem from="1606313796926" duration="20499000" />
     </task>
     <servers />
   </component>
@@ -86,6 +93,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="514" y="226" key="#Deployment" timestamp="1606328557643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="514" y="226" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1606328557643" />
     <state x="950" y="440" key="FileChooserDialogImpl" timestamp="1606315701837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

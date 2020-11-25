@@ -24,15 +24,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="parmums.html">MineCurse</a>
+            <a class="navbar-brand" href="parmums.php">Covid Drošība</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav  navbar-right">
-                <li><a href="index.html">Mājas</a></li>
-                <li><a href="parmums.html">Par mums</a></li>
-                <li class="active"><a href="galerija.html">Galerija</a></li>
-                <li><a href="videogalerija.html">Video galerija</a></li>
-                <li><a href="kontakti.html">Kontakti</a></li>
+                <li><a href="index">Mājas</a></li>
+                <li><a href="parmums">Par mums</a></li>
+                <li class="active"><a href="galerija">Galerija</a></li>
+                <li><a href="videogalerija">Video galerija</a></li>
+                <li><a href="kontakti">Kontakti</a></li>
             </ul>
 
         </div>
@@ -40,7 +40,7 @@
 </nav>
 <section class="container-fluid">
     <section class="row">
-        <div class="col-md-2 col-sm-6 article" style="background-color:#ffccff">
+        <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>
             <div class="reklama">
                 <a href="https://www.w3schools.com">
@@ -48,27 +48,27 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-8 col-sm-6 article" style="background-color:#f9e6ff">
-            <h1>MineCurse</h1>
+        <div class="col-md-8 col-sm-6 article" style="background-color:#FFFFFF">
+            <h1>Covid Drošība</h1>
             <div class="mgallery">
-                <a href="./images/sasniegumi/dabonu_aotd.png" data-lightbox="example-set" data-title="Dabonu zobenu"><img alt="Galerijas bilde" src="images/sasniegumi/dabonu_aotd.png" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/sasniegumi/pig.jpg" data-lightbox="example-set" data-title="nolādētā negantā cūka"><img alt="Galerijas bilde" src="images/sasniegumi/pig.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/sasniegumi/chair.jpg" data-lightbox="example-set" data-title="viduslaiku krēsls mainkraftā"><img alt="Galerijas bilde" src="images/sasniegumi/chair.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/citiatt/trakums.jfif" data-lightbox="example-set" data-title="Bāc R.I.P krūms pa 20 rubļiem"><img alt="Galerijas bilde" src="images/citiatt/trakums.jfif" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/citiatt/dzelzsgolems.jfif" data-lightbox="example-set" data-title="Dažreiz arī dzelzs vīri neiztur tehnikumu"><img alt="Galerijas bilde" src="images/citiatt/dzelzsgolems.jfif" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/citiatt/kokastienis.jpg" data-lightbox="example-set" data-title="Es nezinu kā tas sanāca"><img alt="Galerijas bilde" src="images/citiatt/kokastienis.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/citiatt/draugiunes.jfif" data-lightbox="example-set" data-title="Es ļoti biju vajadzīgs draugiem"><img alt="Galerijas bilde" src="images/citiatt/draugiunes.jfif" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/citiatt/ananas.jfif" data-lightbox="example-set" data-title="Flex ar ananāsu pa 10 euro stipendiju"><img alt="Galerijas bilde" src="images/citiatt/ananas.jfif" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/DiviMetri.jpg" data-lightbox="example-set" data-title="Drošs attālums starp cilvēkiem lai inficēšanās iespējas būtu minimālas ir 2 metri"><img alt="Galerijas bilde" src="./images/MGallery/DiviMetri.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/KaKlepot.jpg" data-lightbox="example-set" data-title="Klepot plaukstā nav ieteicams, jo tas nav efektīvi. Labāk klepot elkonī"><img alt="Galerijas bilde" src="./images/MGallery/KaKlepot.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/KaNesatMasku.jpg" data-lightbox="example-set" data-title="Masku jānēsā ir pareizi, jo citādi no tās nav nekādas jēgas"><img alt="Galerijas bilde" src="./images/MGallery/KaNesatMasku.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/Maskas.jpg" data-lightbox="example-set" data-title="Neaizmirstiet bērnam iemācīt pareizi nēsāt masku"><img alt="Galerijas bilde" src="./images/MGallery/Maskas.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/RokasSpirts.jpeg" data-lightbox="example-set" data-title="Pret šo vīrusu visefektīvāk lietot līdzekļus, kas ir balstīti uz spirta bāzes"><img alt="Galerijas bilde" src="./images/MGallery/RokasSpirts.jpeg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/RokasZiepes.jpg" data-lightbox="example-set" data-title="Ja nav spirta bāzes līdzekļi, tad ziepes arī nenāks par ļaunu"><img alt="Galerijas bilde" src="./images/MGallery/RokasZiepes.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/RokuSapsiesana.jpg" data-lightbox="example-set" data-title="Kamēr plosas šis vīruss ir ļoti ieteicams nesasveicināties tradicionālā veidā, vai vizmaz izmantot tad tādā gadījumā cimdus"><img alt="Galerijas bilde" src="./images/MGallery/RokuSapsiesana.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/MGallery/Tusini.jpg" data-lightbox="example-set" data-title="Ir ļoti ieteicams nedoties publiskos pasākumos kamēr ir daudz saslimšanas gadījumu, vizdrīzāk tie tāpat tiks atcelti"><img alt="Galerijas bilde" src="./images/MGallery/Tusini.jpg" class="mgallery" width="300px" height="200px"></a>
             </div>
             <h2>Galerija tiek atjaunota, taču mēs meklējam tikai kvalitatīvu kontentu </h2>
             <h3>Pa cik tas aizņem laiku, mēs arī pieņemam jūsu bildes uz e-pastiem</h3>
-            <a href="parmums.html" class="btn btn-success myBtn" role="button">Par mums</a>
-            <a href="kontakti.html" class="btn btn-success myBtn" role="button">Kontakti</a>
+            <a href="parmums.php" class="btn btn-success myBtn" role="button">Par mums</a>
+            <a href="kontakti.php" class="btn btn-success myBtn" role="button">Kontakti</a>
             <h2>Aizvainojošs, seksuāls vai citāda veida aizliegts materiāls?</h2>
             <h3>Jūs to varat ziņot, un mēs apskatīsim vai arī noņemsim materiālu, kurš neatbilst noteikumiem</h3>
             <button type="button" class="btn btn-warning">Ziņot</button>
         </div>
-        <div class="col-md-2 col-sm-6 article" style="background-color:#ffccff">
+        <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>
             <div class="reklama">
                 <a href="https://www.w3schools.com">
@@ -87,9 +87,6 @@
         </a>
         <a href="https://www.rvt.lv/">
             <img alt="Rvt.lv logo" height="60px" width="60px" src=https://www.estudijas.rvt.lv/theme/image.php/clean/theme/1505375536/rvt-95">
-        </a>
-        <a href="https://www.minecraft.net/en-us/">
-            <img alt="Minecraft logo" height="60px" width="60px" src="https://www.juegosdesurvival.com/wp-content/uploads/2015/04/1993715.png">
         </a>
         <a href="https://www.facebook.com">
             <img alt="Facebook.com logo" height="60px" width="60px" src="https://www.freepnglogos.com/uploads/facebook-icons/facebook-icon-transparent-background-3.png">

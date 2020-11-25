@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MineCurse- Contacts</title>
+    <title>MineCurse- About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./css/reset.css" rel="stylesheet">
     <link href = "./libs/bootstrap/css/bootstrap.css" rel ="stylesheet">
@@ -24,15 +24,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="parmums.html">MineCurse</a>
+            <a class="navbar-brand" href="parmums.php">Covid Drošība</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav  navbar-right">
-                <li><a href="index.html">Mājas</a></li>
-                <li><a href="parmums.html">Par mums</a></li>
-                <li><a href="galerija.html">Galerija</a></li>
-                <li><a href="videogalerija.html">Video galerija</a></li>
-                <li class="active"><a href="kontakti.html">Kontakti</a></li>
+                <li><a href="index">Mājas</a></li>
+                <li class="active"><a href="parmums">Par mums</a></li>
+                <li><a href="galerija">Galerija</a></li>
+                <li><a href="videogalerija">Video galerija</a></li>
+                <li><a href="kontakti">Kontakti</a></li>
             </ul>
 
         </div>
@@ -40,60 +40,65 @@
 </nav>
 <section class="container-fluid">
     <section class="row">
-        <div class="col-md-2 col-sm-6 article" style="background-color:#ffccff">
-            <h1>Reklāma</h1>
-            <div class="reklama">
-                <img alt="Reklāma" height="100%" width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2WtSW7dHi_cwyU01xFwSVjiZC2PgWGg6sZXnqmt2V4SKku8L&s">
-                <img alt="Reklāma" height="100%" width="100%" src="https://i.ytimg.com/vi/hzxN4c8lK6s/hqdefault.jpg">
-            </div>
+        <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
+            <h1>Kā mēs pelnām:</h1>
+            <h2>#1</h2>
+            <p>Mājaslapā tiek rādītas reklāmas, kuras arī atmaksā šīs mājaslapas uzturēšanas līdzekļus</p>
+            <h2>#2</h2>
+            <p>Jums ir iespēja noziedot mums lai mēs turpmāk varam veikt darbību un sākt progressēt arī citās jomās</p>
         </div>
-        <div class="col-md-8 col-sm-6 article" style="background-color:#f9e6ff">
-            <h1>MineCurse</h1>
-            <h2>Kontakti</h2>
+        <div class="col-md-8 col-sm-6 article" style="background-color:#FFFFFF">
+            <h1>Covid Drošība</h1>
+            <div class="mgallery">
+                <a href="./images/sasniegumi/dabonu_aotd.png" data-lightbox="example-set" data-title="Dabonu zobenu"><img alt="Attēls no galerijas" src="images/sasniegumi/dabonu_aotd.png" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/sasniegumi/pig.jpg" data-lightbox="example-set" data-title="nolādētā negantā cūka"><img alt="Attēls no galerijas" src="images/sasniegumi/pig.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/sasniegumi/chair.jpg" data-lightbox="example-set" data-title="viduslaiku krēsls mainkraftā"><img alt="Attēls no galerijas" src="images/sasniegumi/chair.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/citiatt/trakums.jfif" data-lightbox="example-set" data-title="Bāc R.I.P krūms pa 20 rubļiem"><img alt="Attēls no galerijas" src="images/citiatt/trakums.jfif" class="mgallery" width="300px" height="200px"></a>
+            </div>
+            <h2>Kas mēs esam?</h2>
+            <p>Mēs esam komanda no 3 cilvēkiem, kuriem bija ideja. Ideja, kā padarīt dzīvi prieka pilnāku. Sekojoši tika izveidots Minecurse</p>
+            <h4>Mūsu administrācija</h4>
             <table class="table table-dark">
                 <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Vārds</th>
-                    <th scope="col">E-pasts</th>
-                    <th scope="col">Numurs</th>
+                    <th scope="row">#</th>
+                    <th scope="row">Vārds</th>
+                    <th scope="row">Iesauka</th>
+                    <th scope="row">Statuss</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <th scope="row">1</th>
                     <td>Kristiāns</td>
-                    <td>kriekstins@example.lv</td>
-                    <td>+371-01234567</td>
+                    <td>Pelisown/Baltijas ezers</td>
+                    <td>Administrators</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
                     <td>Marks</td>
-                    <td>mksimonovics@example.lv</td>
-                    <td>+371-12345678</td>
+                    <td>Violetais fēnikss</td>
+                    <td>Novērtētājs</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td>Daniels</td>
-                    <td>dmezvinskis@example.lv</td>
-                    <td>+371-23456789</td>
+                    <td>Rižiks</td>
+                    <td>Novērtētājs</td>
                 </tr>
                 </tbody>
             </table>
-            <h2>Ja vēlaties satikt mūs uz vietas, mēs atrodamies šeit:</h2>
-            <div class="mapbox">
-                <iframe width='100%' height='500px' id='mapcanvas' src='https://maps.google.com/maps?q=R%C4%ABga%20R%C4%ABgas%20Valsts%20tehnikums&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'><div class="zxos8_gm">booking a <a href="https://www.codeguesser.co.uk/expedia.co.uk">holiday</a> at Expedia should not</div><div style='overflow:hidden;'><div id='gmap_canvas' style='height:440px;width:700px;'></div></div><div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div></iframe>
-            </div>
-                <h3>Rīgas Valsts tehnikums/Valdemāra iela 1c</h3>
-                    <img alt="Atrašanās vietas attēls" src="images/citiatt/tehnikums.jpg" width="500" height="255">
+            <figure class="figure">
+                <img src="https://ak0.picdn.net/shutterstock/videos/1031318390/thumb/1.jpg?ip=x480" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Šāda ir dzīve, bez lietām, kā MineCurse</figcaption>
+            </figure>
         </div>
-        <div class="col-md-2 col-sm-6 article" style="background-color:#ffccff">
-            <h1>Reklāma</h1>
-            <div class="reklama">
-                <a href="https://www.w3schools.com">
-                <img alt="Reklāma" height="100%" width="100%" src="https://dcassetcdn.com/design_img/3627021/520283/520283_19989296_3627021_c59701e4_thumbnail.png">
-                </a>
-            </div>
+        <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
+            <h1>Mūsu mērķi:</h1>
+            <h2>#1</h2>
+            <p>Palīdzēt cilvēkiem saprast, kā pareizi rīkoties un mazināt infekcijas risku</p>
+            <h2>#2</h2>
+            <p>Mazināt Covid19 izplatību mūsu valstī</p>
         </div>
     </section>
 </section>
@@ -106,9 +111,6 @@
         </a>
         <a href="https://www.rvt.lv/">
             <img alt="Rvt.lv logo" height="60px" width="60px" src=https://www.estudijas.rvt.lv/theme/image.php/clean/theme/1505375536/rvt-95">
-        </a>
-        <a href="https://www.minecraft.net/en-us/">
-            <img alt="Minecraft logo" height="60px" width="60px" src="https://www.juegosdesurvival.com/wp-content/uploads/2015/04/1993715.png">
         </a>
         <a href="https://www.facebook.com">
             <img alt="Facebook.com logo" height="60px" width="60px" src="https://www.freepnglogos.com/uploads/facebook-icons/facebook-icon-transparent-background-3.png">
