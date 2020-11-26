@@ -32,9 +32,17 @@
                 <li><a href="parmums">Par mums</a></li>
                 <li><a href="galerija">Galerija</a></li>
                 <li><a href="videogalerija">Video galerija</a></li>
-                <li class="active"><a href="kontakti">Kontakti</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Kontakti
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="kontakti">Mūsu kontakti</a></li>
+                            <li><a href="jautajums">Pajautāt</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-
         </div>
     </div>
 </nav>
@@ -86,6 +94,7 @@
             </div>
                 <h3>Rīgas Valsts tehnikums/Valdemāra iela 1c</h3>
                     <img alt="Atrašanās vietas attēls" src="images/citiatt/tehnikums.jpg" width="500" height="255">
+                    <p></p>
         </div>
         <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>

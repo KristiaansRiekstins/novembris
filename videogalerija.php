@@ -31,10 +31,18 @@
                 <li><a href="index">Mājas</a></li>
                 <li><a href="parmums">Par mums</a></li>
                 <li><a href="galerija">Galerija</a></li>
-                <li class="active"><a href="videogalerija">Video galerija</a></li>
-                <li><a href="kontakti">Kontakti</a></li>
+                <li class="active"><a href="videogalerija.php">Video galerija</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Kontakti
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="kontakti">Mūsu kontakti</a></li>
+                            <li><a href="jautajums">Pajautāt</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-
         </div>
     </div>
 </nav>
@@ -51,24 +59,21 @@
         <div class="col-md-8 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Covid Drošība</h1>
             <div class="videogalerija">
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/PrBbthdU-wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/0H2WtZKVwHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/PjbDQNdt99c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/KnW9H4E_wOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/K77wW5kH7Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/mvigNj-2YOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/eEzDgKTPLHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/MhI3k4ZqMsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="256" height="144" src="https://www.youtube.com/embed/t9wP_PN96Is" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/1APwq1df6Mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/OXkkndTULvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/nWbbK9poArQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/FC4soCjxSOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/n6QwnzbRUyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/RzW9UUmImVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/oWlSoLPT8-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/ARVZs_yAi3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="256" height="144" src="https://www.youtube.com/embed/5hu7_xIsCRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h2>Interesantākie video par mūsu tēmu</h2>
-            <h3>Mēs liekam klāt jaunus video cik ātri vien tas iespējams</h3>
-            <h4>Pa cik tas aizņem laiku, mēs arī pieņemam jūsu video uz e-pastiem</h4>
-            <a href="parmums.php" class="btn btn-success myBtn" role="button">Par mums</a>
-            <a href="kontakti.php" class="btn btn-success myBtn" role="button">Kontakti</a>
-            <h2>Aizvainojošs, seksuāls vai citāda veida aizliegts materiāls?</h2>
-            <h3>Jūs to varat ziņot, un mēs apskatīsim vai arī noņemsim materiālu, kurš neatbilst noteikumiem</h3>
-            <button type="button" class="btn btn-warning">Ziņot</button>
+            <h2>Šie video var jums aptuveni sniegt informāciju, kā pasargāties, un ko darīt laikā, kur
+            a plosās šis nežēlīgais vīruss</h2>
+            <h3>Videoklipi tiek mainīti, svarīgākie paliek un vecie tiek atjaunināti uz nedaudz noderīgākiem</h3>
+            <h4>Ja ir jautājumi, jūs mums varat rakstīt apakšsadaļā kontakti "rakstīt ziņu"</h4>
+            <a href="jautajums" class="btn btn-success myBtn" role="button">Jautāt mums jautājumu!</a>
         </div>
         <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>

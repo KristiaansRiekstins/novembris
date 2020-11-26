@@ -32,9 +32,17 @@
                 <li class="active"><a href="parmums">Par mums</a></li>
                 <li><a href="galerija">Galerija</a></li>
                 <li><a href="videogalerija">Video galerija</a></li>
-                <li><a href="kontakti">Kontakti</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Kontakti
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="kontakti">Mūsu kontakti</a></li>
+                            <li><a href="jautajums">Pajautāt</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-
         </div>
     </div>
 </nav>
@@ -50,13 +58,13 @@
         <div class="col-md-8 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Covid Drošība</h1>
             <div class="mgallery">
-                <a href="./images/sasniegumi/dabonu_aotd.png" data-lightbox="example-set" data-title="Dabonu zobenu"><img alt="Attēls no galerijas" src="images/sasniegumi/dabonu_aotd.png" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/sasniegumi/pig.jpg" data-lightbox="example-set" data-title="nolādētā negantā cūka"><img alt="Attēls no galerijas" src="images/sasniegumi/pig.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/sasniegumi/chair.jpg" data-lightbox="example-set" data-title="viduslaiku krēsls mainkraftā"><img alt="Attēls no galerijas" src="images/sasniegumi/chair.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/citiatt/trakums.jfif" data-lightbox="example-set" data-title="Bāc R.I.P krūms pa 20 rubļiem"><img alt="Attēls no galerijas" src="images/citiatt/trakums.jfif" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/SideGallery/Arsts.jpg" data-lightbox="example-set" data-title="Nekavējoties dodieties pie ārsta, ja ir pamanāmi jebkādi simptomi"><img alt="Attēls no galerijas" src="./images/SideGallery/Arsts.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/SideGallery/Homeschooling.jpg" data-lightbox="example-set" data-title="Tagad gandrīz visiem mājās ir datori, vai arī var nolīgt privātskolotāju"><img alt="Attēls no galerijas" src="./images/SideGallery/Homeschooling.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/SideGallery/Skola.jpg" data-lightbox="example-set" data-title="Skolās ir jābūt dezinfekcijas līdzekļi, kuri pieejami skolēniem bez maksas, ja tādu nav, tad ieteicams saviem bērniem nopirkt to atsevišķi"><img alt="Attēls no galerijas" src="./images/SideGallery/Skola.jpg" class="mgallery" width="300px" height="200px"></a>
+                <a href="./images/SideGallery/zoom.png" data-lightbox="example-set" data-title="Tagad mācīšanās un strādāšana ir pieejama arī attālināti pateicoties bezmaksas saziņas platformām"><img alt="Attēls no galerijas" src="./images/SideGallery/zoom.png" class="mgallery" width="300px" height="200px"></a>
             </div>
             <h2>Kas mēs esam?</h2>
-            <p>Mēs esam komanda no 3 cilvēkiem, kuriem bija ideja. Ideja, kā padarīt dzīvi prieka pilnāku. Sekojoši tika izveidots Minecurse</p>
+            <p>Mēs esam komanda no 3 cilvēkiem, kuriem apnika šī slimība un ir vēlme padarīt pasauli labāku</p>
             <h4>Mūsu administrācija</h4>
             <table class="table table-dark">
                 <thead>
@@ -88,10 +96,6 @@
                 </tr>
                 </tbody>
             </table>
-            <figure class="figure">
-                <img src="https://ak0.picdn.net/shutterstock/videos/1031318390/thumb/1.jpg?ip=x480" class="figure-img img-fluid rounded" alt="...">
-                <figcaption class="figure-caption">Šāda ir dzīve, bez lietām, kā MineCurse</figcaption>
-            </figure>
         </div>
         <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Mūsu mērķi:</h1>
@@ -103,7 +107,7 @@
     </section>
 </section>
 </body>
-<div class="footer">
+<div class="footer_parak_mazs">
     <p>Kājene</p>
     <div class="footerimgbox">
         <a href="https://www.w3schools.com">

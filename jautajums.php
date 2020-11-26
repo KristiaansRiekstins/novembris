@@ -1,3 +1,9 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,7 +34,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav  navbar-right">
-                <li class="active"><a href="index">Mājas</a></li>
+                <li><a href="index">Mājas</a></li>
                 <li><a href="parmums">Par mums</a></li>
                 <li><a href="galerija">Galerija</a></li>
                 <li><a href="videogalerija">Video galerija</a></li>
@@ -37,44 +43,52 @@
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Kontakti
                             <span class="caret"></span></button>
                         <ul class="dropdown-menu">
-                            <li class="active"><a href="kontakti">Mūsu kontakti</a></li>
-                            <li><a href="jautajums">Pajautāt</a></li>
+                            <li><a href="kontakti">Mūsu kontakti</a></li>
+                            <li class="active"><a href="jautajums.php">Pajautāt</a></li>
                         </ul>
                     </div>
                 </li>
             </ul>
+
         </div>
     </div>
 </nav>
 <section class="container-fluid">
     <section class="row">
         <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
-            <h1>Iespējas mūsu viesiem:</h1>
-            <h2>Pirmkārt</h2>
-            <p>Bezmaksas informācija par to, kā pasargāties no Covid19 vīrusa</p>
-            <h2>Otrkārt</h2>
-            <p>Ir iespēja mums noziedot, bet tas nav obligāti</p>
+
         </div>
         <div class="col-md-8 col-sm-6 article" style="background-color:#FFFFFF">
-            <h1>Covid Drošība</h1>
-            <div class="mgallery">
-                <a href="./images/SideGallery/Arsts.jpg" data-lightbox="example-set" data-title="Nekavējoties dodieties pie ārsta, ja ir pamanāmi jebkādi simptomi"><img alt="Attēls no galerijas" src="./images/SideGallery/Arsts.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/SideGallery/Homeschooling.jpg" data-lightbox="example-set" data-title="Tagad gandrīz visiem mājās ir datori, vai arī var nolīgt privātskolotāju"><img alt="Attēls no galerijas" src="./images/SideGallery/Homeschooling.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/SideGallery/Skola.jpg" data-lightbox="example-set" data-title="Skolās ir jābūt dezinfekcijas līdzekļi, kuri pieejami skolēniem bez maksas, ja tādu nav, tad ieteicams saviem bērniem nopirkt to atsevišķi"><img alt="Attēls no galerijas" src="./images/SideGallery/Skola.jpg" class="mgallery" width="300px" height="200px"></a>
-                <a href="./images/SideGallery/zoom.png" data-lightbox="example-set" data-title="Tagad mācīšanās un strādāšana ir pieejama arī attālināti pateicoties bezmaksas saziņas platformām"><img alt="Attēls no galerijas" src="./images/SideGallery/zoom.png" class="mgallery" width="300px" height="200px"></a>
-            </div>
-            <h3>Mēs esam maza organizācija, kurai ir svarīgi lai cilvēce pārvar šo pandēmiju vai vizmaz mazina tās sekas</h3>
+            <h1>Uzdodiet jautājumus šeit!</h1>
+            <form action="register.php" method="post">
+                <div class="form-group">
+                    <label for="email">Vārds:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Vārds" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Uzvārds:</label>
+                    <input type="text" class="form-control" id="surname" placeholder="Uzvārds" name="surname">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-pasts:</label>
+                    <input type="email" class="form-control" id="email" placeholder="JusuEpasts@epasts.lv" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="email">Tālrunis:</label>
+                    <input type="text" class="form-control" id="phone" placeholder="+371 " name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" <input type="password" class="form-control" placeholder="parole123" title="Ievadei jāsastāv tikai no cipariem (8)">
+                </div>
+                <div class="form-group">
+                    <label for="email">Jautājums:</label>
+                    <textarea class="form-control" rows="5" id="question" placeholder="Man nav skaidrs..." name="question"></textarea>
+                </div>
+                <button type="submit" name="save" class="btn btn-success">Nosūtīt</button>
+            </form>
         </div>
         <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
-            <a href="login" class="btn btn-success myBtn" role="button">Log-In</a>
-            <a href="register" class="btn btn-success myBtn" role="button">Register</a>
-            <h1>Kāpēc mēs šo visu darām?</h1>
-            <p>Visiem ir apnicis pašreizējais stāvoklis ar visiem aizliegumiem u.t.t. Cilvēki bieži vien nezin vai neievēro parastas higienas normas un kā rīkoties šādos laikos</p>
-            <h2>Ko mēs piedāvājam</h2>
+
         </div>
     </section>
 </section>
-</body>
 <div class="footer_parak_mazs">
     <p>Kājene</p>
     <div class="footerimgbox">
@@ -99,4 +113,13 @@
         <p>Simbolisks teksts lai izskatītos pēc īstās dzīves piemēra. Man nepieder mājaslapā ievietotie attēli un video. </p>
     </a>
 </div>
+<?php
+    if(isset($_POST['save'])){
+        echo "<b>Jūsu vārds: </b>{$_POST['name']}<br/>";
+        echo "<b>Jūsu uzvārds: </b>{$_POST['surname']}<br/>";
+        echo "<b>Jūsu epasts: </b>{$_POST['email']}<br/>";
+        echo "<b>Jūsu parole: </b>{$_POST['password']}<br/>";
+    }
+?>
+</body>
 </html>

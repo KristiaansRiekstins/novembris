@@ -32,9 +32,17 @@
                 <li><a href="parmums">Par mums</a></li>
                 <li class="active"><a href="galerija">Galerija</a></li>
                 <li><a href="videogalerija">Video galerija</a></li>
-                <li><a href="kontakti">Kontakti</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Kontakti
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="kontakti">Mūsu kontakti</a></li>
+                            <li><a href="jautajums">Pajautāt</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-
         </div>
     </div>
 </nav>
@@ -60,13 +68,7 @@
                 <a href="./images/MGallery/RokuSapsiesana.jpg" data-lightbox="example-set" data-title="Kamēr plosas šis vīruss ir ļoti ieteicams nesasveicināties tradicionālā veidā, vai vizmaz izmantot tad tādā gadījumā cimdus"><img alt="Galerijas bilde" src="./images/MGallery/RokuSapsiesana.jpg" class="mgallery" width="300px" height="200px"></a>
                 <a href="./images/MGallery/Tusini.jpg" data-lightbox="example-set" data-title="Ir ļoti ieteicams nedoties publiskos pasākumos kamēr ir daudz saslimšanas gadījumu, vizdrīzāk tie tāpat tiks atcelti"><img alt="Galerijas bilde" src="./images/MGallery/Tusini.jpg" class="mgallery" width="300px" height="200px"></a>
             </div>
-            <h2>Galerija tiek atjaunota, taču mēs meklējam tikai kvalitatīvu kontentu </h2>
-            <h3>Pa cik tas aizņem laiku, mēs arī pieņemam jūsu bildes uz e-pastiem</h3>
-            <a href="parmums.php" class="btn btn-success myBtn" role="button">Par mums</a>
-            <a href="kontakti.php" class="btn btn-success myBtn" role="button">Kontakti</a>
-            <h2>Aizvainojošs, seksuāls vai citāda veida aizliegts materiāls?</h2>
-            <h3>Jūs to varat ziņot, un mēs apskatīsim vai arī noņemsim materiālu, kurš neatbilst noteikumiem</h3>
-            <button type="button" class="btn btn-warning">Ziņot</button>
+            <h2>Jāievēro tas, kas ir rakstīts bildēs un aprakstā, uzspiežot uz tām</h2>
         </div>
         <div class="col-md-2 col-sm-6 article" style="background-color:#FFFFFF">
             <h1>Reklāma</h1>
@@ -78,7 +80,6 @@
         </div>
     </section>
 </section>
-</body>
 <div class="footer">
     <p>Kājene</p>
     <div class="footerimgbox">
@@ -103,4 +104,6 @@
         <p>Simbolisks teksts lai izskatītos pēc īstās dzīves piemēra. Man nepieder mājaslapā ievietotie attēli un video. </p>
     </a>
 </div>
+</body>
+
 </html>
